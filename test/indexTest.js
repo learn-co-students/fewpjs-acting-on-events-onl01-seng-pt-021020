@@ -19,7 +19,7 @@ describe('moveDodgerLeft()', () => {
 describe('moveDodgerRight', () => {
   beforeEach(() => {
     dodger = document.getElementById('dodger')
-  })
+  }) 
 
   it('moves the DODGER to the right', () => {
     var left = dodger.style.left
